@@ -1,0 +1,32 @@
+{
+  "id": "derrida-perspective",
+  "author": "jiushiaaa",
+  "method": "https://github.com/alchaincyf/nuwa-skill",
+  "source_snapshot": "frozen-r3",
+  "snapshot_manifest": {
+    "id": "derrida-perspective",
+    "files": {
+      "questions.json": "2e9cf62384f4d7adc661163fc8b9c378529ee338b3715f0fbacee78b51b2932a",
+      "skill/EXTRACTION.md": "0e85c5f6c89708657a2d8885fb6ce5c52e86bc2014b99241fe1e6c41aa2b5deb",
+      "skill/references/persona-expression.md": "f073292fa41bbc727cae79ca0d15447f351ee94bd9d7d72dcf2a5edcc65f2338",
+      "skill/references/research/01-writings.md": "81f2830b04073311ffe55fc54c88789318cf32cfe8f2496a0b9437e694cc4957",
+      "skill/references/research/02-conversations.md": "da35a9cc25a6386e25c8f64f8de9c795d995b18504a67cde55188f10337384e3",
+      "skill/references/research/03-expression-dna.md": "001895cba6f5dc6c349bdbcf877e0b5e49429a1405f6393ed4953f1aa3d9c10a",
+      "skill/references/research/04-external-views.md": "1e2e03c35da8d3aab622afce39c52aa216cc3000731aafe65de4d284d74823dd",
+      "skill/references/research/05-decisions.md": "a9d6f2265ceb3cd0f0b14c12ea19c92a2fd882f27ca911d0fa2b0447b953c562",
+      "skill/references/research/06-timeline.md": "fe675731f9f2176ec7e2b302c305b430bbbc137b4cf6e58b787d36f4b0c47ec6",
+      "skill/references/research/07-primary-supplement.md": "7623520979bfc331d270287ec73309c76cf5213c18a1f008aca78cb3edb9b74c",
+      "skill/references/research/10-deep-primary-language.md": "1b74095031345695365a85ba1f9fef715f5b22400918d58359aed3290e646acb",
+      "skill/references/research/12-nuwa-a-evidence.json": "7c9de884da37e328dbd733b96fed514d6e9d9db8574d0e8e864109542a31f6ba",
+      "skill/references/research/12-nuwa-a-evidence.md": "c32fa1dae2930932dba562a13ff0dacad91a461dc4169562bdd2b5903e31f039",
+      "skill/references/research/13-primary-argument-chains.json": "f476c0ca92c6cbc61cca0246be15f54df598ffeacb3f5fdfdc29e1cc4f5df476",
+      "skill/references/research/13-primary-argument-chains.md": "43d57dbb5e4878bc494285516c070d9fcf75f33a7aa8295df00364e1ba2f1fe1",
+      "skill/references/research/15-r2-primary-evidence.json": "256c33b166f4f72ff6490445503352f35b466ff5b86ec78ae26e838a239f0d46",
+      "skill/references/research/15-r2-primary-evidence.md": "2e9995aa4810c7e3f8c9a673125dab246d8b1ec47a2718e3a384080e4db228f0",
+      "skill/SKILL.md": "cf8d3f1167d6c61705319e74d7b4f6dd497b7c32b86c6f4c07f985f4eacf508f",
+      "skill/source-catalog.md": "e4c270cdf1edfbe9573f33756051a5151da1476594e33e5cf9de69e03ab49804"
+    },
+    "historical_validation_excluded": true
+  },
+  "public_packaging": "Bilingual readmes and usage, attribution, license, sanitized local paths; no score optimization."
+}

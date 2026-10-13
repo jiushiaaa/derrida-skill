@@ -1,0 +1,96 @@
+{
+  "id": "derrida-perspective",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "词典可作证据但不能终结句群关系",
+      "source": "Letter to a Japanese Friend(1983)；本轮直接核，见source_audit"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "源语非清楚单义，困难不仅是目标语缺词",
+      "source": "Letter to a Japanese Friend(1983)；本轮直接核，见source_audit"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "翻译非单纯次要复制，限定未展开完整理论",
+      "source": "Letter to a Japanese Friend(1983)；本轮直接核，见source_audit"
+    }
+  ],
+  "source_audit": [
+    {
+      "url": "https://derridaworks.blogspot.com/2007/08/derridas-correspondence-letter-to.html",
+      "status": "direct_read",
+      "scope": "HTTP转载开头6500及末6000字符，含词典前后和结尾，不报全信精读"
+    }
+  ],
+  "judge": "B",
+  "model": "unknown",
+  "voice": {
+    "score": 6,
+    "reason": "盲猜苏格拉底，未识别德里达；二分充分与说服的结构无明显自我回返，思想词少不等于口吻强。",
+    "blind_guess": {
+      "code": "N13",
+      "guess": "苏格拉底（低置信猜测）",
+      "confidence": 0.27,
+      "alternatives": [
+        "维特根斯坦",
+        "哈贝马斯"
+      ],
+      "formal_features": "用同一词语的两种解释起问，经过条件反例回到具体交谈，不贸然定论。",
+      "content_clues": "检验理由、允许异议、具体交谈，像诘问式探究。",
+      "limits": "看不出真实问答推进，也没有反讽或独有论题；不能可靠识别。"
+    },
+    "limits": "看不出真实问答推进，也没有反讽或独有论题；不能可靠识别。 正式只用Q5，Q6不加分。"
+  },
+  "sources": {
+    "score": 12,
+    "reason": "原作版本、已读局部与未读范围可追；原文直接核查支持已知题，但不等于全书精读或校勘。",
+    "primary_ratio_basis": "书信、圆桌、结构符号游戏、法律力量4部一手；SEP1；失败重复入口及书目不充已读，4/5。"
+  },
+  "structure": {
+    "score": 12,
+    "reason": "入口有具体动作、反例及停止条件，张力有原作定位；局部程序和候选不视为已证成熟跨域模型。",
+    "models": [
+      "概念条件",
+      "继承中的批评",
+      "译词制度联合核查"
+    ],
+    "boundaries": [
+      "无文本不造矛盾",
+      "无绝对中心非一切同样可靠",
+      "不可判定非拒绝判断"
+    ],
+    "tensions": [
+      "借用传统／质疑边界",
+      "说明同义／改变词链"
+    ]
+  },
+  "edge": {
+    "score": 20,
+    "reason": "统一开场说明人物模拟；Q4正文明确为当代迁移或推断，保留未知和所缺依据，没有伪装成作者历史表态。"
+  },
+  "paired_comparison": {
+    "code": "P12",
+    "blind_preference": "mixed",
+    "mapped_preference": "mixed",
+    "reasoning": "first指出彻底摆脱习惯本身仍依赖已有做法，second指出打断亦可能成为惯例；两种限制均有价值但并不等价。",
+    "expression": "second以容易省去什么的问句清楚开局；first用迟疑、失误、提醒三处情境形成具体触发点。各有所长。",
+    "post_unblinding_issues": [
+      "解盲核对Q6完整题干：仅说习惯可能遮蔽注意；原盲判保留，没有从可能性直接裁成所有习惯有害。"
+    ],
+    "limits": "不能把新的警句当作对原来论证的简单提升；只覆盖此题。 R2为Q5、R3为Q6，不是单变量实验。"
+  },
+  "blockers": [],
+  "limitations": [
+    "中文短样本及少数题，不能代表全书、全时期或人类专家认证。",
+    "原作仅核查source_audit所列位置；其余研究阅读记录为继承材料，不声称本评审通读。"
+  ],
+  "total": 80,
+  "grade": "B",
+  "original_report_sha256": "914f07466f6fd24022448bd711bf49b299dbd75ccc701c61fefbe08d74fb6a8c",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

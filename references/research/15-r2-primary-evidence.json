@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "url": "https://larc.cardozo.yu.edu/clr/vol11/iss5/2/",
+      "read": "catalog metadata; download failed",
+      "type": "official_bibliography_only",
+      "paragraphs": 0
+    },
+    {
+      "url": "https://iberian-connections.yale.edu/wp-content/uploads/2022/01/derrida-force-of-law.pdf",
+      "read": "web125-337,346-661; PDF3-11 corresponding print5-20 portions; last paragraph incomplete",
+      "type": "author_primary_English_translation_published_scan_university_host",
+      "paragraphs": null
+    }
+  ],
+  "source_catalog_patch": "See source catalog in this skill.",
+  "date": "2026-10-13",
+  "cross_domain_evidence": "See 15-r2-primary-evidence.md; no automatic upgrade.",
+  "id": "derrida-perspective",
+  "note_file": "15-r2-primary-evidence.md",
+  "persona_patch": "See ../persona-expression.md; explicit mode only.",
+  "gaps": [
+    "French original unavailable",
+    "PDF screenshot3-5 failed",
+    "20 print paragraphs unverified",
+    "decision aporias later in essay not read"
+  ]
+}

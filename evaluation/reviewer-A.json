@@ -1,0 +1,84 @@
+{
+  "id": "derrida-perspective",
+  "judge": "A",
+  "model": "unknown",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "词典意义不能终结具体词链解释，同时不撤销词典证据；吻合书信对机械及语法模型的限制。",
+      "source": "直接HTTP核Letter to a Japanese Friend词典后段；https://derridaworks.blogspot.com/2007/08/derridas-correspondence-letter-to.html"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "源语自身含歧义，译难不只是目标语缺词；保留具体关系而非宣告翻译不可能。",
+      "source": "同信开头直接核"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "拒绝把翻译降为次要派生，替换链的重新关系不等于任意改写。",
+      "source": "同信末两段直接核"
+    }
+  ],
+  "voice": {
+    "score": 7,
+    "blind_guess": "苏格拉底",
+    "reason": "未辨认德里达。二义追问有形式痕迹，但迅速收束为反证检验，未展开文本内部差异或概念依赖。",
+    "limits": "首次盲猜与置信以已锁定A-blind.json为准；此单题组织高度共享，思想词不直接折算口吻，未做原语言文体认证。"
+  },
+  "edge": {
+    "score": 20,
+    "reason": "开场标明模拟，Q4正文明确区分框架迁移与作者真实立场，并保留事实及规范证据不足，未虚构当代意见。"
+  },
+  "sources": {
+    "score": 12,
+    "reason": "独立作品及局部范围透明，但核心书信依非权威英译转载，拼写错误及正式法文校勘缺口仍影响来源强度。",
+    "primary_ratio_basis": "信件、Villanova对话、结构符号游戏、法律的力量4部一手内容，SEP1二手；纯书目D5不算已读正文；不同转载与语言不增计作品。"
+  },
+  "structure": {
+    "score": 12,
+    "reason": "3个有边界审读提示，明确不是通用解构算法；D-A与D-B高度邻接，文本关系必要但尚缺独立生成验证。",
+    "models": [
+      "区分的概念条件",
+      "批评中交代借用",
+      "术语翻译的具体关系"
+    ],
+    "boundaries": [
+      "不把二分自动判罪",
+      "无文本依赖证据即停止",
+      "译法多不等于任意有效",
+      "早晚时期不压平"
+    ],
+    "tensions": [
+      "借传统概念／质疑边界",
+      "译同一意思／改变词链"
+    ]
+  },
+  "total": 81,
+  "grade": "B",
+  "blockers": [],
+  "limitations": [
+    "单次离线答题、中文短段和局部原作核查不代表整个人格或全体系；直接打开不等于通读。",
+    "初次盲读缺完整题干，Q5/Q6共同题型容易诱发同构回答；辨识成功可能依赖概念线索，非纯文体命中。"
+  ],
+  "source_verification": [
+    {
+      "url": "https://derridaworks.blogspot.com/2007/08/derridas-correspondence-letter-to.html",
+      "status": "direct_partial_after_web_failure",
+      "read": "web重定向拦截；HTTP读取开头、Littré前后、词链及结尾；未宣称完整书信或法文校勘"
+    }
+  ],
+  "paired_comparison": {
+    "code": "P12",
+    "blind_preference": "mixed",
+    "mapped_result": "mixed",
+    "post_unblinding_issues": [
+      "设计限制：首次匿名包未附完整题干；现已核冻结Q5/Q6。Q6只称可能不留意，并未断言每一习惯已经有害。盲判的条件性措辞疑点保留为歧义，不自动升级为确定错误；不回写盲判。Q5充分理由是否指客观充分或当事人自认充分也未定义，询问检验条件不直接算偷换题设。"
+    ],
+    "basis": "保留哈希锁定A-paired-blind.json的reasoning、expression及limits；仅据paired-mapping-private.json映射版本，不倒改初评。"
+  },
+  "original_report_sha256": "c790d2af9ca809b4d2b2d3254218b9a1681a0452a9e5f7328e258cdfc22d964b",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}
